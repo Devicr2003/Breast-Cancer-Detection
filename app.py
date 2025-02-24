@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the trained model
-model_path = '/home/rajani/Desktop/Project/model.pkl'  # path to the uploaded model file
+model_path = 'model.pkl'  # path to the uploaded model file
 with open(model_path, 'rb') as model_file:
     model = pickle.load(model_file)
 
